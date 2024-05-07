@@ -23,7 +23,7 @@ app.use(express.static("public"));
 
     // Connecting to database>>>>>
 
-    mongoose.connect("mongodb+srv://panditmukki5:50abc%40MP@cluster0.qbfgn8a.mongodb.net/blogDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
+    mongoose.connect("mongodb+srv://panditmukki5:50atlas%40MP@cluster0.qbfgn8a.mongodb.net/blogDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log(`CONNECTED TO MONGO!`);
     })
